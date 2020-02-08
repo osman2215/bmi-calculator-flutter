@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
-const cardTextSyle = TextStyle(
-  fontSize: 18.0,
-  color: Color(0xFF808E98),
-);
 
 class ReusableCardChild extends StatelessWidget {
 
@@ -26,7 +23,7 @@ class ReusableCardChild extends StatelessWidget {
         ),
         Text(
           cardText.toString(),
-          style:cardTextSyle,
+          style:kCardTextSyle,
         )
       ],
     );
